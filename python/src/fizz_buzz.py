@@ -30,6 +30,16 @@ def fizz_buzz(limit):
     return three, five, fifteen
 
 
+def fizz_buz_diff_saige(limit):
+    for i in range(1, limit):
+        if i % 12 == 0:
+            print("Not Fizz")
+        if i % 23 == 0:
+            print("Not Buzz")
+        if i % 1080 == 0:
+            print("Not FizzBuzz")
+
+
 def fizz_buzz_diff(limit):
 
     for i in range(1, limit):
